@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+     <head>
+          <title>Zomato Home page</title>
+          <style>
+                *{
+                   margin:0;
+                   padding :0;
+                   text-decoration:none;
+                   color:white;
+                   border: none;
+                }
+                html
+                {
+                    background-color:#cb202d;
+                }
+                .header
+                {
+                    font-size:30px;
+                    text-align:center;
+                    margin:20px;      
+                }
+                
+                img{
+                    height:150px;
+                    width:200px;
+                }
+                .services{
+                    display:flex;
+                    flex-direction:row;
+                    justify-content:space-around;
+                    align-items:center;
+                }
+          </style>
+     </head>
+     <body>
+          <div class="header">
+                   <h2>OUR SERVICES</h2>    
+          </div>
+          <div class="services">
+            <div>
+                <img src="service6.jpg">
+                <h4>Find The Nearby<br>restaurants easily</h4>
+            </div>
+            <div>
+                <img src="service3.jpg">
+                <h4>Delicious and tasty food</h4>
+            </div>
+            <div>
+                <img src="service2.jpg">
+                <h4>Order Online</h4>
+            </div>
+          </div>
+          <br>
+          <div class="services" style="margin-top:30px">
+            <div>
+                <img src="service4.jpg">
+                <h4>Cash On Delivery</h4>
+            </div>
+            <div>
+                <img src="service5.webp">
+                <h4>Amazing Discounts</h4>
+            </div>
+            <div>
+                <img src="service1.png">
+                <h4>Instant Delivery</h4>
+            </div    
+          </div>     
+     </body>
+</html>
+
+

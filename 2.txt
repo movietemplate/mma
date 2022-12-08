@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+     <head>
+           <title>Leela Rohith</title>
+           <style>
+                 *{
+                    margin:0;
+                   }
+                  body{
+                     background-color:#EBECF0;
+                }
+                  h2
+                 {
+                    background-color:#A9A9A9;
+                }
+                 tr,th,td{
+                    border:1px solid black;
+                    text-align : center;
+                 }
+           </style>
+    </head>
+     <body>
+          <div>
+            <img src="profile.jpg" width="100px" style="margin-left:40px; display: inline;">
+            <h1 style="text-align:left;font-size:20px">LEELA ROHITH</h1>
+          </div>
+          <div>
+            <h2>CAREER OBJECTIVE</h2>
+            <ul>
+                <li>To secure a challenging position in a reputable organization to expand my learnings, knowledge, and skills. Secure a responsible career opportunity to fully utilize my training and skills, while making a significant contribution to the success of the company.</li>
+            </ul>
+          </div>
+         <div>
+         <h2 style="margin-top:10px;">PERSONAL INFORMATION</h2>
+         <ul>
+             <li>NAME          : E Leela Rohith</li>     
+             <li>DATE OF BIRTH : 01-01-2002</li>
+             <li>MOBILE        : 6301822396</li>
+             <li>EMAIL         : leelarohith10@gmail.com</li>
+         </ul>
+         </div>
+         <div>
+             <h2 style="margin-top:10px;">EDUCATION</h2>
+             <table style="width:100%; border-collapse: collapse;">
+                   <tr>
+                       <th>Board Of Education</th>
+                       <th>Qualification</th>
+                       <th>Course</th>
+                       <th>School/College Name</th>
+                       <th>Year Of Passing</th>
+                       <th>Grade</th>
+                   </tr>
+                   <tr>
+                       <td>Secondary School Of Education<sub> (SSC)</sub></td>\
+                       <td>10th Standard</td>
+                       <td>-</td>
+                       <td>Amali E.M High School</td>
+                       <td>2018</td>
+                       <td>10.0</td>
+                   </tr>
+                   <tr>
+                       <td>Board Of Secondary Education<sub> (BSE)</sub></td>
+                       <td>Intermediate</td>
+                       <td>MPC</td>
+                       <td>Sarada Educational Institutions</td>
+                       <td>2020</td>
+                       <td>9.8</td>
+                   </tr>
+                   <tr>
+                       <td>JNTU Anantapur</td>
+                       <td>Btech</td>
+                       <td>CSE</td>
+                       <td>G Pulla Reddy Engineering College</td>
+                       <td>2024</td>
+                       <td>9.0</td>
+                   </tr>
+                   </tr>
+             </table>
+         </div>
+         <div>
+            <h2 style="margin-top:10px;">CERTIFICATIONS</h2>
+            <ul>
+               <li>Certified Microsoft Java Programmer</li>
+               <li>Certified in Fundamentals Of Network Security By Eduskills</li>  
+            </ul>
+        </div>
+         <div>
+             <h2 style="margin-top:10px;">TECHNICAL SKILLS</h2>
+             <ul>
+                <li>FrontEnd Web Designing Using HTML,CSS,JAVASCRIPT</li>
+                <li>SQL</li>
+                <li>Python For Data Science</li>  
+                <li>JavaScript Frameworks : ReactJS,NodeJS</li> 
+             </ul>
+         </div>
+         <div>
+             <h2 style="margin-top:10px;">PROJECTS</h2>
+             <ul>
+                <li>Website For Inventrom Pvt. Limited</li>
+                <li>Online Quiz Game</li>
+                <li>Personal Profile Page</li>
+             </ul>
+         </div>
+         <div>
+             <h2 style="margin-top:10px;">CERTIFICATIONS</h2>
+             <ul>
+                <li>Certified Microsoft Java Programmer</li>
+                <li>Certified in Fundamentals Of Network Security By Eduskills</li>  
+             </ul>
+         </div> 
+         <div>
+             <h2 style="margin-top:10px;">Work Experience</h2>
+             <ul>
+                <li>Worked as intern in frontend webdevelopment at Bolt Iot </li>
+                <li>Worked as intern in Data Science at Brain O Vision</li>  
+             </ul>
+         </div>  
+         <div>
+             <h2 style="margin-top:10px;">EXTRA CURRICULAR ACTIVITIES</h2>
+             <ul>
+                <li>Member Of CSI Club in college</li>
+                <li>Voluteer for NSS Club in college</li>  
+             </ul>
+         </div>   
+   </body>      
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+     <head>
+          <title>Zomato Home page</title>
+          <style>
+                *{
+                  margin:0;
+                  padding :0;
+                  text-decoration:none;
+                  color:white;
+                  border: none;
+                }
+                html
+                {
+                  background-color:#cb202d;
+                }
+                .header
+                {
+                  font-size:40px;
+                  text-align:center;
+                  margin:20px;     
+                }
+               button
+               {
+                  background-color:#00c04b;
+                  margin:20px;
+                  padding: 15px 32px;
+                  text-align: center;
+                  font-size: 16px;
+               }
+               .links
+               {
+                  display:flex;
+                  flex-direction:row;
+                  justify-content:center;
+                  align-items:center;
+               }
+               .content{
+                  background: url(food1.png);
+               
+                  background-size: 1550px 800px;
+                  display:flex;
+                  flex-direction:column;
+                  justify-content:center;
+                  align-items:center;
+                  width:100%;   
+                  height:100vh;      
+               }
+          </style>
+     </head>
+     <body>
+         <div class="header">
+                   <h2>ZOMATO</h2>    
+         </div>
+        <div class="links">
+        <button type="button" class="button"><a href="about.html">ABOUT US</a></button>
+        <button type="button" class="button"><a href="services.html">OUR SERVICES</a></button>  
+        <button type="button" class="button"><a href="contactus.html">CONTACT US</a></button>
+        </div>
+        <div class="content">
+                 <h2 style="font-size:50px;">ORDER NOW !</h2>    
+        </div>      
+     </body>
+</html>
+
+

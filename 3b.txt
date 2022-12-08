@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Facebook Login</title>
+        <style>
+            *{
+                 margin:0;
+                 padding:0;
+                 color:white;
+                 text-decoration:none;
+                 border:none;
+            }
+            html{
+                  background-color:rgb(66 103 178);
+            }
+               
+               
+               body{
+                display:flex;
+                 flex-direction:column;
+                 justify-content:center;
+                 align-items:center;
+
+               }
+               form
+            {
+                 display:flex;
+                 flex-direction:column;
+                 justify-content:center;
+                 align-items:center;
+                 margin-top:30px;
+                 margin-left:500px;
+                 margin-right:500px;
+                 line-height: 40px;
+                 font-size:20px;     
+            }
+            input{
+                color:black;
+               height: 25px;
+            }
+            button{
+                 background-color:#00c04b;
+                 display:block;
+                 margin:20px;
+                 font-size: 16px;
+                 padding: 15px 32px;
+                 text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div style="margin-top: 100px;font-size:25px;">
+            <h2 >FACEBOOK Login<h2>
+        </div>
+        <form>
+            <div>
+            <label>Username : </label>
+            <input type="text" placeholder="Enter your username/email"><br>
+            <label>Password: </label>
+            <input type="password" placeholder="Enter your password"><br>
+            </div>
+            <div>
+                <button>LOGIN</button>
+            </div>
+        </form> 
+    </body>
+</html>

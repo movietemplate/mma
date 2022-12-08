@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Homepage</title>
+        <style>
+              *{
+                  margin:0;
+                  padding:0;
+                  color:white;
+                  text-decoration:none;
+                  border:none;
+               }
+              html
+               {
+                  background-color:rgb(66 103 178);
+               }
+               body
+               {
+                display:flex;
+                 flex-direction:column;
+                 justify-content:center;
+                 align-items:center;
+               }
+               .content
+               {
+                 display:flex;
+                 flex-direction:column;
+                 justify-content:center;
+                 align-items:center;
+                 background-color:white;
+                 margin-top:80px;
+                 margin-left:500px;
+                 margin-right:500px;
+                 border-radius:20px;
+                 width:500px;
+                 
+               }
+              button
+               {
+                  background-color:#00c04b;
+                  display:block; 
+                  padding: 15px 32px;
+                  margin:20px;
+                  text-align: center;
+                  font-size: 16px;
+               }
+        </style>
+    </head>
+    <body>
+        <div style="margin-top:50px;font-size: 20px;">
+            <h1>Facebook-Login</h1>
+        </div>
+        <div class="content" >
+            <button type="button" class="button"><a href="">HOME</a></button>
+            <button type="button" class="button"><a href="signup.html">SIGNUP</a></button>  
+            <button type="button" class="button"><a href="login.html">LOGIN</a></button>
+        </div> 
+    </body>
+</html>

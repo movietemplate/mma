@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+     <head>
+          <title>GPREC</title>
+          <style>
+                *{
+                   margin:0;
+                   padding :0;
+                   text-decoration:none;
+                   color:white;
+                   border: none;
+                }
+                html
+                {
+                   background-color:#2F2FA2;
+                }
+                .header
+                {
+                    
+                   text-align:center;
+                   background-color: white; 
+                   display:flex;
+                   flex-direction:row;
+                   justify-content:center;
+                   align-items:center;
+                     
+                }                
+                
+               .links
+               {
+                  display:flex;
+                  flex-direction:row;
+                  justify-content:center;
+                  align-items:center;
+                  height:50px;
+
+               }
+               a{
+                margin-right:50px;
+               }
+               .affiliation
+               {
+                  display:flex;
+                  flex-direction:row;
+                  justify-content:center;
+                  align-items:center; 
+                  margin:15px;
+                     
+               }
+               .departments
+               {
+                  display:flex;
+                  flex-direction:row;
+                  justify-content:center;
+                  align-items:center; 
+                  margin:15px;
+                  
+               }
+               .footer
+               {
+                  display:flex;
+                  flex-direction:row;
+                  justify-content:center;
+                  align-items:center; 
+                  background-color: white;
+                  height: 150px;
+                  margin-top: 50px;      
+               }
+          </style>
+           
+     </head>
+     <body>
+          <div class="header">
+                  <div>
+                   <img src="logo.png" width=80px height=80px>
+                  </div>
+                  <div>
+                     <h1 style="color:#2F2FA2">G Pulla Reddy Engineering College(Autonomous)</h1>
+                     <h2 style="color:#2F2FA2">Kurnool-518007,Andhra Pradesh,India</h2>  
+                  </div>  
+          </div>
+          <div class="links">
+            <a>Home</a>
+            <a>About us</a>
+            <a>Admissions</a>
+            <a>Examcell</a>
+            <a>Student/Parent Login</a>
+            <a>Training and Placement cell</a>
+            <a>Payments</a>
+          </div>
+          <div>
+            <img src="gprec.jpg" heigth=1000px width=1550px> 
+          </div>
+          <h2 style="margin:20px">Our Affliations</h2>
+          <div class="affiliation"> 
+               <div >
+                     <img style="margin-right:50px" width="200" height="200" src="affiliation1.jpg">
+                     <h3>IUCEE</h3>
+               </div>
+               <div >
+               <img style="margin-right:50px" width="200" height="200" src="affiliation2.png">
+               <h3>NIRF</h3>
+               </div>
+               <div >
+               <img style="margin-right:50px" width="200" height="200" src="affiliation3.png">
+               <h3>NAAC</h3>
+               </div>
+               <div>
+               <img style="margin-right:50px" width="200" height="200" src="nba.jpg">
+               <h3>NBA</h3>
+               </div>
+          </div>
+          <h2 style="margin:20px">Departments</h2>
+          <div class="departments">
+               <div >
+                  <a href="cse.html"><img style="margin-right:50px" width="200" height="200" src="cse.png"></a>
+                     <h3>Computer Science <br>and Engineering</h3>
+               </div>
+               <div >
+               <img style="margin-right:50px" width="200" height="200" src="ai.jpg">
+               <h3>Artificial Intelligence</h3>
+               </div>
+               <div >
+               <img style="margin-right:50px" width="200" height="200" src="ds.png">
+               <h3>Data Science</h3>
+               </div>
+               <div>
+               <img style="margin-right:50px" width="200" height="200" src="mech.jpg">
+               <h3>Mechanical Engineering</h3>
+               </div>
+          </div>
+          <div class="departments">
+               <div >
+               <img style="margin-right:50px" width="200" height="200" src="civil.png">
+               <h3>Civil Engineering</h3>
+               </div>
+               <div >
+               <img style="margin-right:50px" width="200" height="200" src="ece.jpg">
+               <h3>Electronics and <br>Communications Engineering</h3>
+               </div>
+               <div >
+               <img style="margin-right:50px" width="200" height="200" src="eee.jpg">
+               <h3>Electrical and <br> Electronics Engineering </h3>
+               </div>
+          </div>
+          <div class="footer">
+            <div style="margin-right:120px">
+               <h2 style="color:#2F2FA2;margin-bottom: 15px;" > Contact Us </h2>
+               <h3 style="color:#2F2FA2;margin-bottom: 15px;" >G Pulla Reddy Nagar, Nandyal Road, Kurnool - 518 007, AP, India.</h3>
+               <h3 style="color:#2F2FA2;margin-bottom: 15px;" > 08518-270957 (O) / 08518-280719 (D)</h3>
+               <h3 style="color:#2F2FA2;" > info@gprec.ac.in</h3>
+            </div>
+            <div>
+               <h2 style="color:#2F2FA2;margin-bottom: 15px;" > Social Media Links </h2>
+               <a href="https://www.instagram.com/"> <img style="margin-right:10px" width="35" height="35" src="insta.jpg"></a>
+               <a href="https://www.facebook.com/GPREC.Kurnool"> <img style="margin-right:10px" width="35" height="35" src="fb.png"></a>
+               <a href="https://twitter.com/GPRECK"> <img style="margin-right:10px" width="35" height="35" src="twitter.png"></a>
+            </div>
+          </div>
+          <script>
+            var c = document.getElementById("myCanvas");
+            var ctx = c.getContext("2d");
+            ctx.beginPath();
+            ctx.arc(80,50,40,0,2*Math.PI);
+            ctx.fillStyle="#2F2FA2";
+            ctx.fill();
+         </script>
+     </body>
+</html>
+
+

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+     <head>
+          <title>CSE</title>
+          <style>
+                *{
+                   margin:0;
+                   padding :0;
+                   text-decoration:none;
+                   color:white;
+                   border: none;
+                }
+                a{
+                   color: #2F2FA2;
+                   margin-right:50px;
+                }
+                html
+                {
+                    background-color:#2F2FA2;
+                }
+                .header
+                {
+                    
+                    text-align:center;
+                    background-color: white; 
+                    display:flex;
+                    flex-direction:row;
+                    justify-content:center;
+                    align-items:center;    
+                } 
+                button
+               {
+                  background-color:white;
+                  margin:20px;
+                  font-size: 16px;
+                  padding: 15px 20px;
+                  text-align: left;  
+               }               
+                
+              
+               .links
+               {
+                  display:flex;
+                  flex-direction:row;
+                  justify-content:center;
+                  align-items:center;
+                  height:50px;
+
+               }
+               .links a{
+                color: white;
+               }
+               
+               .faculty
+               {
+                  display:flex;
+                  flex-direction:column;
+                  justify-content:center;
+                  align-items:center; 
+                  margin:15px;  
+               }
+               .subject
+               {
+                  display:flex;
+                  flex-direction:row;
+                  justify-content:center;
+                  align-items:center; 
+                  margin:15px;     
+               }
+          </style>
+     </head>
+     <body>
+          <div class="header">
+                  <div>
+                   <img src="logo.png" width=80px height=80px>
+                  </div>
+                  <div>
+                     <h1 style="color:#2F2FA2">G Pulla Reddy Engineering College(Autonomous)</h1>
+                     <h2 style="color:#2F2FA2">Kurnool-518007,Andhra Pradesh,India</h2>  
+                  </div>  
+          </div>
+          <div class="links">
+            <a>Home</a>
+            <a>About us</a>
+            <a>Admissions</a>
+            <a>Examcell</a>
+            <a>Student/Parent Login</a>
+            <a>Training and Placement cell</a>
+            <a>Payments</a>
+          </div>
+          <h1 style="text-align:center;margin-top:20px">COMPUTER SCIENCE AND ENGINEERING DEPARTMENT</h1> 
+          <div class="faculty">
+            <div class="subject">
+                <h2 style="color:white;margin-right: 240px;">Name Of The Faculty<h2>
+                <h2 style="color:white;margin-right: 200px;">Subject Information<h2>
+            </div>
+            <div class="subject">
+                <h3 style="color:white;margin-right: 200px;">	Dr. N.Kasiviswanath<h3>
+                <button type="button" class="button"><a href="">Advanced Data Structures</a></button>
+            </div>
+            <div class="subject">
+                <h3 style="color:white;margin-right: 200px;">Sri. S. Vinay Kumar<h3>
+                <button type="button" class="button"><a href="mma.html">Multimedia Applications</a></button>
+                
+            </div>
+            <div class="subject">
+                <h3 style="color:white;margin-right: 200px;">Dr. P.Penchala Prasad<h3>
+                <button type="button" class="button"><a href="">Object Oriented Programming<br>Through Java</a></button>
+            </div>
+            <div class="subject">
+                <h3 style="color:white;margin-right: 180px;">Sri. B. Dilip Kumar Reddy<h3>
+                <button type="button" class="button"><a href="">Data Communication <br>and Computer networks</a></button>
+            </div>
+            <div class="subject">
+                <h3 style="color:white;margin-right: 240px;">Smt. P. Sridevi<h3>
+                <button type="button" class="button"><a href="">Formal Language<br>and Automata Theory</a></button>
+            </div> 
+          </div>
+     </body>
+</html>
+
+

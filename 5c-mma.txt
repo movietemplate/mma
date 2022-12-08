@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+     <head>
+          <title>MULTIMEDIA APPLICATIONS</title>
+          <style>
+                *{
+                   margin:0;
+                   padding :0;
+                   text-decoration:none;
+                   color:white;
+                   border: none;
+                }
+                a{
+                   color: #2F2FA2;
+                }
+                html
+                {
+                    background-color:#2F2FA2;
+                }
+                .header
+                {
+                    
+                    text-align:center;
+                    background-color: white; 
+                    display:flex;
+                    flex-direction:row;
+                    justify-content:center;
+                    align-items:center;    
+                } 
+                button
+               {
+                  background-color:white;
+                  margin:20px;
+                  font-size: 16px;
+                  padding: 15px 20px;
+                  text-align: left;  
+               }               
+                
+              
+               .links
+               {
+                  display:flex;
+                  flex-direction:row;
+                  justify-content:center;
+                  align-items:center;
+                  height:50px;
+
+               }
+               .links a{
+                color: white;
+               }
+               
+               a{
+                margin-right:50px;
+               }
+          </style>
+     </head>
+     <body>
+          <div class="header">
+                  <div>
+                   <img src="logo.png" width=80px height=80px>
+                  </div>
+                  <div>
+                     <h1 style="color:#2F2FA2">G Pulla Reddy Engineering College(Autonomous)</h1>
+                     <h2 style="color:#2F2FA2">Kurnool-518007,Andhra Pradesh,India</h2>  
+                  </div>  
+          </div>
+          <div class="links">
+            <a>Home</a>
+            <a>About us</a>
+            <a>Admissions</a>
+            <a>Examcell</a>
+            <a>Student/Parent Login</a>
+            <a>Training and Placement cell</a>
+            <a>Payments</a>
+          </div>
+          <h1 style="text-align:center;margin-top:10px;margin-bottom: 10px;">Mutimedia Applications</h1> 
+          <iframe style="margin-left:240px;" width="1000" height="570"
+                  src="https://www.youtube.com/embed/MDLn5-zSQQI">
+          </iframe>
+          <iframe style="margin-left:240px;" width="1000" height="570"
+                  src="https://www.youtube.com/embed/salY_Sm6mv4">
+          </iframe>
+     </body>
+</html>
+
+

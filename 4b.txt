@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+     <head>
+          <title>Zomato ABOUT US</title>
+          <style>
+               *{
+                   margin:0;
+                   padding :0;
+                   text-decoration:none;
+                   color:white;
+                }
+               html
+               {
+                  background-color:#cb202d;
+               }
+               .about
+               {
+                  display:flex;
+                  flex-direction:row;
+                  justify-content:center;
+                  align-items:center;
+                  margin-top: 30px;  
+               }
+               .header
+               {
+                  font-size:40px;
+                  text-align:center;  
+                  margin:20px
+                   
+               }
+               h4{
+                  text-align: justify;
+                  text-justify: auto;
+                  margin-right: 110px;
+                  margin-bottom: 40px;
+                  color: black;
+               }  
+          </style>
+     </head>
+     <body>
+          <div class="header">
+               <h2>ZOMATO</h2>    
+          </div>
+          <div class="about">
+               <h4 style="line-height:25px;background-color: white; border-radius: 20px;padding: 15px;">
+                    <div style="color:black;text-align: center;font-size: 30px;margin: 20px;">ABOUT US</div>
+                    Launched in 2010, Our technology platform connects customers, restaurant partners<br>
+                    and delivery partners, serving their multiple needs. Customers use our platform<br>
+                    to search and discover restaurants, read and write customer generated reviews and view <br>
+                    and upload photos, order food delivery, book a table and make payments while dining-out at <br>
+                    restaurants. On the other hand, we provide restaurant partners with industry-specific<br>
+                    marketing tools which enable them to engage and acquire customers to grow their business while <br>
+                    also providing a reliable and efficient last mile delivery service. We also operate a one-stop <br>
+                    procurement solution, Hyperpure, which supplies high quality ingredients and kitchen products to <br>
+                    restaurant partners. We also provide our delivery partners with transparent and flexible<br> earning opportunities.</h4>
+               <img src="about.png" height="200px" >
+          </div>    
+     </body>
+</html>
+
+

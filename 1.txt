@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+     <head>
+          <title>Student Educational Details</title>
+          <style>
+                *{
+                   margin:0px;
+                 }
+                 h1
+                 {
+                   background-color:blue;
+                   text-align:center;
+                 }
+                 h3
+                 {
+                   text-align:center;
+                   padding-top:20px;
+                   padding-bottom:20px;
+                 }  
+                 tr,th,td
+                 {
+                   border:1px solid black; 
+                   text-align:center;
+                 }               
+          </style>
+     </head>
+     <body>
+          <h1 style="color:white;">G Pulla Reddy Engineering(Autonomous) College</h1>
+          <h3 style="color:black">Academic Details Of Students</h3>
+          <table style="background-color:skyblue;width:100%;">
+                <tr>
+                    <th>S.No</th>
+                    <th>Rollno</th>
+                    <th>Student Name</th>
+                    <th>Branch</th>
+                    <th>CGPA</th>
+                </tr>
+                 <tr>
+                    <td>1</td>
+                    <td>209X1A0551</td>
+                    <td>E Leela Rohith</td>
+                    <td>CSE</td>
+                    <td>9.4</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>209X1A0552</td>
+                    <td>A Asrith</td>
+                    <td>CSE</td>
+                    <td>9.6</td>
+                </tr>
+                 <tr>
+                    <td>3</td>
+                    <td>209X1A0555</td>
+                    <td>M Mounish</td>
+                    <td>CSE</td>
+                    <td>9.2</td>
+                <tr>
+                    <td>4</td>
+                    <td>209X1A0550</td>
+                    <td>D Vamsi</td>
+                    <td>CSE</td>
+                    <td>9.12</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>209X1A0559</td>
+                    <td>M Krishna</td>
+                    <td>CSE</td>
+                    <td>9.27</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>209X1A0121</td>
+                    <td>C Rahul</td>
+                    <td>Civil</td>
+                    <td>8.8</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>209X1A0122</td>
+                    <td>K Raju</td>
+                    <td>Civil</td>
+                    <td>8.8</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>209X1A0121</td>
+                    <td>P Sita</td>
+                    <td>CST</td>
+                    <td>8.8</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>209X1A0122</td>
+                    <td>P Ram</td>
+                    <td>CSBS</td>
+                    <td>8.8</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>209X1A0123</td>
+                    <td>S Rakesh</td>
+                    <td>MECH</td>
+                    <td>8.8</td>
+                </tr>
+                <tr>
+                    <td>11</td>
+                    <td>209X1A0124</td>
+                    <td>L Pavan</td>
+                    <td>MECH</td>
+                    <td>8.6</td>
+                </tr>
+                <tr>
+                    <td>12</td>
+                    <td>209X1A0500</td>
+                    <td>G Sai Krishna</td>
+                    <td>EEE</td>
+                    <td>9.0</td>
+                </tr>
+                <tr>
+                    <td>13</td>
+                    <td>209X1A0406</td>
+                    <td>B Jagadeesh</td>
+                    <td>Civil</td>
+                    <td>8.3</td>
+                </tr>
+                <tr>
+                    <td>14</td>
+                    <td>209X1A8090</td>
+                    <td>M Mahendra</td>
+                    <td>CSD</td>
+                    <td>9.5</td>
+                </tr>
+                <tr>
+                    <td>15</td>
+                    <td>209X1A8070</td>
+                    <td>T Santhosh</td>
+                    <td>CSD</td>
+                    <td>9.5</td>
+                </tr>
+                <tr>
+                    <td>16</td>
+                    <td>209X1A8060</td>
+                    <td>B Jogendra</td>
+                    <td>MECH</td>
+                    <td>8.0</td>
+                </tr>
+                <tr>
+                    <td>17</td>
+                    <td>209X1A8041</td>
+                    <td>C PRAVEEN</td>
+                    <td>CSE</td>
+                    <td>9.7</td>
+                </tr>
+                <tr>
+                    <td>18</td>
+                    <td>209X1A8042</td>
+                    <td>M MAHESH</td>
+                    <td>MECH</td>
+                    <td>9.2</td>
+                </tr>
+                <tr>
+                    <td>19</td>
+                    <td>209X1A8043</td>
+                    <td>T NAVEEN</td>
+                    <td>ECE</td>
+                    <td>9.3</td>
+                </tr>
+                <tr>
+                    <td>20</td>
+                    <td>209X1A8044</td>
+                    <td>S RAMESH</td>
+                    <td>ECE</td>
+                    <td>8.2</td>
+                </tr>
+          </table>
+     </body>
+</html>

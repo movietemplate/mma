@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>SIGNUP</title>
+      <style>
+            *{
+                  margin:0;
+                  padding:0;
+                  color:white;
+                  text-decoration:none;
+                  border:none;
+               }
+           html
+             {
+                background-color:rgb(66 103 178);
+             }
+             body{
+                display:flex;
+                 flex-direction:column;
+                 justify-content:center;
+                 align-items:center;
+
+               }
+            form
+            {
+                 display:flex;
+                 flex-direction:column;
+                 justify-content:center;
+                 align-items:center;
+                 margin-top:30px;
+                 margin-left:500px;
+                 margin-right:500px;
+                 border-radius:20px;
+                 line-height: 40px;
+                 font-size:20px;     
+            }
+            input
+            {
+                color:black;
+                height: 25px;
+            }
+            .button
+             {
+                background-color:#00c04b;
+                display:inline-block;
+                margin:15px;
+                padding: 15px 32px;
+                text-align: center;
+                font-size: 16px;
+             }
+      </style>
+   </head>
+   <body>
+      <div style="margin-top: 100px;font-size:25px;">
+        <h2 >FACEBOOK Sign-Up<h2>
+      </div>
+      <form>
+           <div>
+           <label>First name:</label>
+           <input type="text" placeholder="Enter your firstname"><br>
+           <label >Last name:</label>
+           <input type="text" placeholder="Enter your lastname"><br>
+           <label >Username:</label>
+           <input type="text" placeholder="Enter your username"><br>
+           <label >Birthday:</label>
+           <input type="date"><br>
+           <label >Father name:</label>
+           <input type="text" placeholder="Enter your fathername"><br>
+           <label >Mobile no :</label>
+           <input type="tel" placeholder="Enter your mobile no"><br>
+           <label >Email-ID :</label>
+           <input type="text" placeholder="Enter your email-id"><br>
+           <label >Gender :</label>
+           <input type="radio" name="gender">
+           <label style="font-size:18px">Male</label>
+           <input type="radio" name="gender">
+           <label style="font-size:18px">Female</label><br>
+           <label>Password: </label>
+            <input type="password" placeholder="Enter your password"><br>
+            <label>Confirm Password: </label>
+            <input type="password" placeholder="Confirm Your Password"><br>
+           </div>
+           <div>
+                <button type="button" class="button"><a href="homepage.html">HOME</a></button>
+                <button type="reset" class="button">RESET</a></button>
+           <div>
+           <textarea style="height:80px;width:250px;color:black;" placeholder="Comments"></textarea>
+      </form>
+   </body>
+</html>
